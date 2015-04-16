@@ -1,0 +1,84 @@
+
+body {
+  background: #f9e933;
+}
+
+header, main, footer {
+  min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+
+header {
+  background: white;
+  overflow: auto;
+}
+
+header h1 {
+  float: left;
+  width: 570px;
+  font-size: 400%;
+  color: red;
+  font-style: italic;
+  margin-bottom: 10px;
+
+  
+}
+
+header h1:hover {
+  text-decoration: underline;
+}
+
+header nav {
+  float: right;
+  width: 285px;
+
+}
+
+header nav:hover {
+  color: red;
+}
+
+main {
+  background: white;
+  overflow: auto;
+  font-size: 115%;
+  background-color: LightGray;
+
+
+}
+
+main .left {
+  float: left;
+  width: 570px;
+  padding-top: 5px;
+  color: navy;
+  font-family: "Verdana", "Arial";
+
+}
+
+span {
+  font-size: 225%;
+  color: red;
+  font-family: "Times New Roman", "Times", "Serif";
+  font-style: italic;
+}
+
+main .right {
+  float: right;
+  width: 285px;
+
+}
+
+footer .left {
+  float: left;
+  width: 570px;
+}
+
+footer .sitemap {
+  float: right;
+  width: 285px;
+}
