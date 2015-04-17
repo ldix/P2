@@ -21,13 +21,19 @@ var isArmstrong = function(num) {
 	if(total == num) {
 		console.log("Is an armstrong number.");
 		array.length = 0;
+<<<<<<< HEAD
 		return ("Is an armstrong number.")
+=======
+>>>>>>> 49b896b16e94740f780c840ed4745078c2777205
 
 	}
 		else {
 			console.log("Is not an armstrong number.");
 			array.length = 0;
+<<<<<<< HEAD
 			return ("Is not an armstrong number.")
+=======
+>>>>>>> 49b896b16e94740f780c840ed4745078c2777205
 
 
 		
@@ -70,7 +76,11 @@ for (var i = 1; i < 100000; ++i){
 
 
 	yes = yes.substring(0, yes.length - 2);
+<<<<<<< HEAD
 	return(yes);
+=======
+	console.log(yes);
+>>>>>>> 49b896b16e94740f780c840ed4745078c2777205
 	yes = "";
 }
 
@@ -87,7 +97,11 @@ var allSubstring1 = function(s) {
         }
         
     }
+<<<<<<< HEAD
 	return(str);
+=======
+	console.log(str);
+>>>>>>> 49b896b16e94740f780c840ed4745078c2777205
 };
 
 var ss
@@ -104,7 +118,11 @@ var allSubstring2 = function(s) {
         }
         
     }
+<<<<<<< HEAD
 	return(str);
+=======
+	console.log(str);
+>>>>>>> 49b896b16e94740f780c840ed4745078c2777205
 };
 
 var str
@@ -120,5 +138,9 @@ var maxWord = function(s) {
             word = str[i];
         }
     }
+<<<<<<< HEAD
 return(word);
+=======
+console.log(word);
+>>>>>>> 49b896b16e94740f780c840ed4745078c2777205
 }
